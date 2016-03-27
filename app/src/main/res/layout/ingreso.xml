@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E64A19"
+    android:id="@+id/layout_ingreso">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nueva Cuenta"
+        android:id="@+id/Title_NuevaCuenta"
+        android:layout_marginTop="64dp"
+        android:textSize="30sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="41dp" />
+
+    <ImageButton
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:id="@+id/imgBtn_camara"
+        android:layout_below="@+id/Title_NuevaCuenta"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="43dp"
+        android:src="@mipmap/camera"
+        android:scaleType="fitXY" />
+</RelativeLayout>
